@@ -46,5 +46,5 @@ Run `ng test` to execute the unit tests via [Karma]
 	6. should set studentDetails property with the studentDetail return from the server when the ListComponent Initialized
 
 
-![Overview](https://gifyu.com/image/YoWa)
+![Overview](https://s4.gifyu.com/images/school-management.gif)
 
