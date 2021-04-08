@@ -20,5 +20,5 @@ Run `ng test` to execute the unit tests via [Karma]
 
 ### Write Test (6 Test Case Senario)
   **login.component.spec.ts**
-  * should redirect the user to the student list page ("/students") if user name and password are correct
+    _ should redirect the user to the student list page ("/students") if user name and password are correct
   
