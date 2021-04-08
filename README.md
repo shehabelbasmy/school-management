@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
 
-## Development server
+## Lanuch up the server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
@@ -25,13 +25,13 @@ Run `ng test` to execute the unit tests via [Karma]
 
 ### Write Test (6 Test Case Senario)
 
->Login & AuthService
+ >Login
  
 **login.component.spec.ts**
 
     1. should redirect the user to the student list page ("/students") if user name and password are correct
     2. should isUserLoggedIn propertey be true if username and password are correct
- >Homepage & StudentService
+ >Homepage
  
 **student-list.component.spec.ts**
 
@@ -39,7 +39,7 @@ Run `ng test` to execute the unit tests via [Karma]
     4. should Update the students lenght when we change the page size
     5. should isUserLoggedIn property be false after the user logged out
 
->Student Detail Page & StudentService
+>Student Detail Page
  
  **student-details.component.spec.ts**
  
