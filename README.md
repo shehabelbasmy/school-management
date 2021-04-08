@@ -40,4 +40,4 @@ Run `ng test` to execute the unit tests via [Karma]
  
  **student-details.component.spec.ts**
  
-		6. should set studentDetails property with the studentDetail return from the server when the ListComponent Initialized
+	6. should set studentDetails property with the studentDetail return from the server when the ListComponent Initialized
