@@ -18,8 +18,7 @@ Used NgRedux library to implement the Redux to manage the state
 
 Run `ng test` to execute the unit tests via [Karma]
 
-### Write Test 
-  **write 6 case senario**
-  * login.component.spec.ts
-    ** should redirect the user to the student list page ("/students") if user name and password are correct
+### Write Test (6 Test Case Senario)
+  **login.component.spec.ts**
+    * should redirect the user to the student list page ("/students") if user name and password are correct
   
