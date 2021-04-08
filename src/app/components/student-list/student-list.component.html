@@ -1,0 +1,47 @@
+<div class="container">
+  <table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Firstname</th>
+        <th scope="col">Lastname</th>
+
+      </tr>
+    </thead>
+    <tbody class="body">
+      <tr class="table-rows" *ngFor="let tempStudent of students">
+        <th>
+          <a routerLink="/students/{{tempStudent.id}}">{{tempStudent.id}}</a>
+        </th>
+        <th scope="row">{{tempStudent.first_name}}</th>
+        <th scope="row">{{tempStudent.last_name}}</th>
+      </tr>
+    </tbody>
+  </table>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <button type="button" class="btn btn-primary" (click)="logout()">Logout</button>
+      </div>
+
+      <div class="col-sm d-flex justify-content-end">
+        <ngb-pagination [(page)]="pageNumber" [pageSize]="pageSize" [maxSize]="5" class="d-flex justify-content-end"
+          [collectionSize]="totalStudents" (pageChange)="getAllStudents()" [boundaryLinks]="true">
+
+        </ngb-pagination>
+        <div class="items">
+          <label>Page Size</label>
+          <select class="page-size" (change)="updatePageSize($event.target.value)">
+            <option selected="true">2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>10</option>
+          </select>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
