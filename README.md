@@ -14,8 +14,11 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## State Managment
 
 *Used NgRedux library to implement the Redux to manage the state*
-**store.ts** :  file which store the state of user's authentication 
-**actions.ts** :  file which store the actions related to state 
+
+    store.ts   :  file which store the state of user's authentication 
+    actions.ts :  file which store the actions related to state
+
+ 
 # Unit $ Integration Test
 
 Run `ng test` to execute the unit tests via [Karma]
