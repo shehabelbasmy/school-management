@@ -19,7 +19,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
     actions.ts :  file which store the actions related to state
 
  
-# Unit $ Integration Test
+# Unit & Integration Test
 
 Run `ng test` to execute the unit tests via [Karma]
 
