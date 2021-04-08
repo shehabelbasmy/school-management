@@ -25,15 +25,19 @@ Run `ng test` to execute the unit tests via [Karma]
 >Login
  
 **login.component.spec.ts**
+
     1. should redirect the user to the student list page ("/students") if user name and password are correct
-    2. should redirect the user to the student list page ("/students") if user name and password are correct
+    2. should isUserLoggedIn propertey be true if username and password are correct
  >Homepage
  
 **student-list.component.spec.ts**
+
     3. should set students property with the studentList return from the server
     4. should Update the students lenght when we change the page size
     5. should isUserLoggedIn property be false after the user logged out
+
 >Student Detail Page
  
  **student-details.component.spec.ts**
-6. should set studentDetails property with the studentDetail return from the server when the ListComponent Initialized
+ 
+		6. should set studentDetails property with the studentDetail return from the server when the ListComponent Initialized
