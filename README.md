@@ -25,13 +25,13 @@ Run `ng test` to execute the unit tests via [Karma]
 
 ### Write Test (6 Test Case Senario)
 
->Login
+>Login & AuthService
  
 **login.component.spec.ts**
 
     1. should redirect the user to the student list page ("/students") if user name and password are correct
     2. should isUserLoggedIn propertey be true if username and password are correct
- >Homepage
+ >Homepage & StudentService
  
 **student-list.component.spec.ts**
 
@@ -39,7 +39,7 @@ Run `ng test` to execute the unit tests via [Karma]
     4. should Update the students lenght when we change the page size
     5. should isUserLoggedIn property be false after the user logged out
 
->Student Detail Page
+>Student Detail Page & StudentService
  
  **student-details.component.spec.ts**
  
